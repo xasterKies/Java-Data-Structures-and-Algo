@@ -11,7 +11,12 @@ public class BubbleSort {
                 }
             }
         }
+        for (int i = 0; i < elements.length; i++) {
+            System.out.println(elements[i]);
+        }
     }
+
+    
 
     public swap(int[] array, int i, int j) {
 
