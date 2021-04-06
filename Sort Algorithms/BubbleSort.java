@@ -1,4 +1,3 @@
-import jdk.internal.vm.annotation.ForceInline;
 
 public class BubbleSort {
     public static void main (String[] args) {
@@ -18,17 +17,15 @@ public class BubbleSort {
 
     
 
-    public swap(int[] array, int i, int j) {
+    public static void swap(int[] array, int i, int j) {
 
         if (i == j) {
             return;
         }
-
-        int temp;
-
-        array[i] = array[temp];
-        array[j] = array[i];
-        array[temp] = array[j];
+        
+        int temp = array[i];
+        array[i] = array[j];
+        array[j] = temp;
 
     }
 }
