@@ -4,7 +4,7 @@ public class SelectionSort {
     public static void main (String[] args) {
         int[] elements = {20, 35, -15, -7, 55, 1, 0};
 
-        for(int lastUnsortedIndex = elements.length; i < lastUnsortedIndex; i--) {
+        for(int lastUnsortedIndex = elements.length; lastUnsortedIndex < 0; lastUnsortedIndex--) {
             
         }
 

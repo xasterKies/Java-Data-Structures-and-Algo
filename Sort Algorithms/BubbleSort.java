@@ -3,9 +3,9 @@ public class BubbleSort {
     public static void main (String[] args) {
         int[] elements = {20, 35, -15, -7, 55, 1, 0};
 
-        for(int lastUnsortedIndex = elements.length; lastUnsortedIndex > 0; lastUnsortedIndex--) {
+        for(int lastUnsortedIndex = elements.length - 1; lastUnsortedIndex > 0; lastUnsortedIndex--) {
             for(int i = 0; i < lastUnsortedIndex; i++) {
-                if (elements[i] == elements[i+1]) {
+                if (elements[i] > elements[i+1]) {
                     swap(elements, i, i+1 );
                 }
             }
