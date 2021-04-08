@@ -5,7 +5,7 @@ public class SelectionSort {
         int[] elements = {20, 35, -15, -7, 55, 1, 0};
 
         for(int lastUnsortedIndex = elements.length; lastUnsortedIndex < 0; lastUnsortedIndex--) {
-            
+            for(i)
         }
 
         for (int i = 0; i < elements.length; i++) {
