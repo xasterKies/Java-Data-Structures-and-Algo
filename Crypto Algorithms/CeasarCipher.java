@@ -1,7 +1,14 @@
+import java.lang.StringBuffer;
+
 public class CeasarCipher {
     public static void main(String[] args) {
         String text = "MEETMEATTHEPARK";
         int s = 4;
+
+        System.out.print("Text: " + text);
+        System.out.println("Key: " + s);
+        System.out.println("Ciphered Text: " + encrypt(text, s));
+
 
     }
 
