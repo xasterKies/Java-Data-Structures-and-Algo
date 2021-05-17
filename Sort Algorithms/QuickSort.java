@@ -3,6 +3,8 @@ public class QuickSort {
     public static void main(String[] args) {
         int[] elements = {20, 35, -15, -7, 55, 1, 0};
 
+        quickSort(elements, 0, elements.length);
+
         for (int i = 0; i < elements.length; i++) {
             System.out.println(elements[i]);
         }
@@ -35,7 +37,7 @@ public class QuickSort {
 
             //Empty loop
             while(i < j && input[++i] <= pivot );
-            if(i > j) {
+            if(i < j) {
                 input[j] = input[i];
             }
         }
