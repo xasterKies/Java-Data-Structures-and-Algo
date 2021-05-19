@@ -17,7 +17,7 @@ public class Main {
 
         list.printList();
 
-        list.getSize();
+        System.out.println( " Size of the Linked List is: " + list.getSize());
 
     }
 }

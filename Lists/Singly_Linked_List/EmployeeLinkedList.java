@@ -29,5 +29,15 @@ public class EmployeeLinkedList {
     public int getSize(){
         return size;
     }
+
+    public EmployeeNode removeFromFront() {
+        EmployeeNode removeNode = head;
+        removeNode = removeNode.getNext();
+        removeNode.setNext(null);
+
+        return removeNode;
+
+    }
+
     
 }
