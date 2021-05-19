@@ -15,7 +15,9 @@ public class Main {
         list.addToFront(isaacMathias);
         list.addToFront(henCharles);
 
-        System.out.print(list);
+        list.printList();
+
+        list.getSize();
 
     }
 }

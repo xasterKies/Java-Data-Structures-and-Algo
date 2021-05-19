@@ -3,11 +3,13 @@ package Singly_Linked_List;
 public class EmployeeLinkedList {
 
     public EmployeeNode head;
+    public int size;
 
     public void addToFront(Employee employee) {
         EmployeeNode node = new EmployeeNode(employee);
         node.setNext(head);
         head = node;
+        size++;
 
     }
 
@@ -22,6 +24,10 @@ public class EmployeeLinkedList {
 
         System.out.print("null");
 
+    }
+
+    public int getSize(){
+        return size;
     }
     
 }
