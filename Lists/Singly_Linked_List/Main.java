@@ -19,5 +19,9 @@ public class Main {
 
         System.out.println( " Size of the Linked List is: " + list.getSize());
 
+        list.removeFromFront();
+
+        
+
     }
 }
