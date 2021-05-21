@@ -21,7 +21,8 @@ public class Main {
 
         list.removeFromFront();
 
-        
+        System.out.println( " Size of the Linked List is: " + list.getSize());
 
+        list.printList();
     }
 }
