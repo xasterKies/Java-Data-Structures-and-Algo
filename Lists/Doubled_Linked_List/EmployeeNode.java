@@ -5,6 +5,8 @@ public class EmployeeNode {
 
     public Employee employee;
     public EmployeeNode next;
+    public EmployeeNode previous;
+
 
     public EmployeeNode(Employee employee) {
         this.employee = employee;
