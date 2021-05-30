@@ -2,6 +2,7 @@ package Doubled_Linked_List;
 
 
 public class EmployeeNode {
+    //coming soon
 
     public Employee employee;
     public EmployeeNode next;
