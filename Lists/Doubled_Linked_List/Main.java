@@ -9,7 +9,8 @@ public class Main {
         Employee henCharles = new Employee("Hen", "Charles", 4);
 
         EmployeeLinkedList list = new EmployeeLinkedList();
-
+        
+        //List of items
         list.addToFront(tiokengSamuel);
         list.addToFront(quintaNjom);
         list.addToFront(isaacMathias);
