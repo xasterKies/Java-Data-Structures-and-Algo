@@ -4,7 +4,7 @@ public class Employee {
     public int age;
     public int id;
 
-
+    //Editing employee
     public Employee(String firstName, String lastName, int id) {
         this.firstName = firstName;
         this.lastName = lastName;
