@@ -4,6 +4,8 @@
   * Date: 11th July 2021
   */
  public class arrayHashtable {
- 
+     public static void main(String[] args) {
+         
+     }
      
  }
