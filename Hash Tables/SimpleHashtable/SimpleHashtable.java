@@ -1,4 +1,4 @@
-import java.util.Hashtable;
+
 
 /* Author:  Tiokeng Samuel
   * Class: arrayHashtable()
@@ -8,10 +8,10 @@ import java.util.Hashtable;
 
  public class SimpleHashtable {
     
-    private Employee[] hashtable;
+    private Employee[] hashtable = new Employee[10];
 
     public SimpleHashtable() {
-        hashtable = new Employee[10];
+        
     }
 
     public void put(String key, Employee employee) {
