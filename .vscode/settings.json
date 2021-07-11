@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
         "Sort Algorithms",
-        "Lists"
+        "Lists",
+        "Hash Tables/SimpleHashtable"
     ]
 }
