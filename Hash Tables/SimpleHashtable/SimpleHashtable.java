@@ -4,7 +4,7 @@
   * Date: 11th July 2021
   */
 
- public class simpleHashtable {
+ public class SimpleHashtable {
     
      
  }
