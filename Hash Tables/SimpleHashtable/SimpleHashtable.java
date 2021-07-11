@@ -30,4 +30,10 @@
     private int hashKey(String key) {
         return key.length() % hashtable.length;
     }
+
+    public void printHashTable() {
+        for (int i = 0; i < hashtable.length; i++) {
+            System.out.println(hashtable[i]);
+        }
+    }
  }
