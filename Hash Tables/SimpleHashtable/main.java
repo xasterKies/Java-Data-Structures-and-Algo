@@ -18,5 +18,7 @@ public class main {
 
     ht.printHashTable();
 
+    System.out.println("Retrive key Isaac: " + ht.get("isaac"));
+
    } 
 }
