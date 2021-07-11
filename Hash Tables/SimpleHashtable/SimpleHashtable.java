@@ -11,6 +11,10 @@
     public SimpleHashtable() {
         hashtable = new Employee[10];
     }
+
+    public void put(String key, Employee employee) {
+        int hashedKey = hashKey(key);
+    }
     
     private int hashKey(String key) {
         return key.length() % hashtable.length;
