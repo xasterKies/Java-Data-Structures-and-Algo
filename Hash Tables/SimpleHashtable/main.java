@@ -8,5 +8,12 @@ public class main {
     Employee quintaNjom = new Employee("Quinta", "Njom", 2);
     Employee isaacMathias = new Employee("Isaac", "Mathias", 3);
     Employee henCharles = new Employee("Hen", "Charles", 4);
+
+    SimpleHashtable ht = new SimpleHashtable();
+    ht.put("Samuel", tiokengSamuel);
+    ht.put("quinta", quintaNjom);
+    ht.put("isaac", isaacMathias);
+    ht.put("hen", henCharles);
+
    } 
 }
