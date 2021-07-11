@@ -16,7 +16,7 @@ import java.util.Hashtable;
 
     public void put(String key, Employee employee) {
         int hashedKey = hashKey(key);
-        if(hashtable(hashedKey) != null) {
+        if(hashtable[hashedKey] != null) {
             System.out.println("Sorry, there's already an employee at position" + hashedKey);
         }
         else {
@@ -26,7 +26,7 @@ import java.util.Hashtable;
 
     public Employee get(String key) {
         int hashedKey = hashKey(key);
-        return hashtable(hashedKey);
+        return hashtable[hashedKey];
     }
     
     private int hashKey(String key) {
