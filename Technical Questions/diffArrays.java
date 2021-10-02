@@ -1,7 +1,7 @@
 class diffArray {
     public static void main(String[] args) {
         
-        System.out.print(difference(arr))
+        System.out.print(difference([1, 2, 3, 5], [1, 2, 3, 4, 5]))
 
     }
 
